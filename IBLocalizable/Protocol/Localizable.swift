@@ -12,6 +12,12 @@ import UIKit
 /**
  *  Localizable Protocol
  */
+
+public class IBLocalization {
+
+    public static var bundle: Bundle? = nil
+}
+
 public protocol Localizable: class {
     
     /// The property that can be localized for each view, for example in a UILabel its the text, in a UIButton its the title, etc

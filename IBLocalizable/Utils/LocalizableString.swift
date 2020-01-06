@@ -13,7 +13,7 @@ extension String {
 
     /// Returns the localized string value
     public var localized: String {
-        return localize(withBundle: Bundle.main)
+        return localize(withBundle: IBLocalization.bundle ?? Bundle.main)
     }
     
     public func localize(withBundle bundle: Bundle) -> String
