@@ -128,12 +128,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		837CE3FF1D4C50B000EC3FDA = {
+		364DC1AA26688F3700504E96 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				837CE40B1D4C50B000EC3FDA /* IBLocalizable */,
 				837CE4311D4C5B6900EC3FDA /* IBLocalizableSample */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		364DC1AE26688F7500504E96 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
 				837CE4171D4C50B000EC3FDA /* IBLocalizableTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		837CE3FF1D4C50B000EC3FDA = {
+			isa = PBXGroup;
+			children = (
+				364DC1AE26688F7500504E96 /* Tests */,
+				364DC1AA26688F3700504E96 /* Sources */,
 				837CE40A1D4C50B000EC3FDA /* Products */,
 				FCDF031F554B7D37EDEACF0B /* Pods */,
 				208EE887B1BB56D30B8C25E8 /* Frameworks */,
@@ -356,6 +372,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				es,
